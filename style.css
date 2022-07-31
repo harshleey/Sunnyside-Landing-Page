@@ -73,7 +73,7 @@ HEADER / NAV BAR
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 100vh; 
+    min-height: 90vh; 
     padding: 20px 15px;
 }
 
@@ -88,13 +88,14 @@ HEADER / NAV BAR
     position: absolute;
     background-color: hsl(0, 0%, 100%);
     top: 20%;
-    right: 10%;
-    left: 10%;
+    right: 8%;
+    left: 8%;
+    padding: 1rem;
 }
 
 .nav-links li {
     display: block;
-    margin: 2.5em auto;
+    margin: 2.2em auto;
     
 }
 
