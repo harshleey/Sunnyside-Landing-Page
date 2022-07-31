@@ -19,6 +19,7 @@ GLOBAL STYLE
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: all 0.3s linear;
 }
 
 body {
@@ -26,7 +27,6 @@ body {
     font-size: 1.125rem;
     text-align: center;
     color: hsl(210, 4%, 67%);
-    /* width: 100%; */
 }
 
 h1,h2,h3,h4 {
@@ -97,11 +97,29 @@ HEADER / NAV BAR
     margin: 1.6em auto;
 }
 
+.nav-links li a {
+    color: hsl(210, 4%, 67%);
+    font-size: 1.1rem;
+}
+
+.nav-links li a:hover {
+    text-transform: uppercase;
+    color:hsl(212, 27%, 19%);
+    border-bottom: 3px solid hsl(212, 27%, 19%);
+    padding-bottom: 0.1em;
+}
+
 .nav-links li.button a {
     background-color: hsl(51, 100%, 49%);
     border-radius: 14px;
     padding: 0.5em 1.6em;
 }
+
+.nav-links li.button a:hover {
+    padding-bottom: 0.5em;
+    border: none;
+}
+
 
 @media (min-width: 490px) {
     h1 {
@@ -135,11 +153,25 @@ HEADER / NAV BAR
         display: inline-block;
         margin: 0 1.8em 0 0;
     }
+
+    .nav-links li a {
+        color: hsl(0, 0%, 100%);
+        text-transform: uppercase;
+    }
+
+    .nav-links li a:hover {
+        border-bottom: 3px solid hsl(0, 0%, 100%);
+    }
     
     .nav-links li.button a {
         background-color: hsl(0, 0%, 100%);
+        color: hsl(212, 27%, 19%);
     }
 
+    .nav-links li.button a:hover {
+        background-color: #0074e8;
+        color: hsl(0, 0%, 100%);
+    }
     
     }
 
