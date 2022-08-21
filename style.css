@@ -110,7 +110,7 @@ HEADER / NAV BAR
 .nav-links {
     position: absolute;
     background-color: hsl(0, 0%, 100%);
-    top: -50%;
+    top: -60%;
     right: 8%;
     left: 8%;
     padding: 1rem;
@@ -146,7 +146,7 @@ HEADER / NAV BAR
 }
 
 .active {
-    top: 20%;
+    top: 25%;
 }
 
 
@@ -269,13 +269,13 @@ main {
 
 /* IMAGES */
 .images {
-
     display: flex;
     flex-wrap: wrap;
 }
 
 .images > img {
     width: 50%;
+    height: 40vh;
 }
 
 /* 
