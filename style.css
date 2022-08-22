@@ -240,6 +240,7 @@ main {
     background-size: cover;
     background-position: center;
     padding: 1.5rem 1.3rem;
+    color: hsl(167, 40%, 24%);
 }
 
 .tangerine {
@@ -247,6 +248,7 @@ main {
     background-size: cover;
     background-position: center;
     padding: 1.5rem 1.3rem;
+    color: hsl(198, 62%, 26%);
 }
 
 /* TESTIMONIAL */
