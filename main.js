@@ -1,9 +1,9 @@
-let navToggle = document.querySelector(".nav-toggle");
+;
+let nav_Toggle = document.querySelector(".nav-toggle");
 let navLinks = document.querySelector(".nav-links");
 
-navToggle.addEventListener('click', () => {
+nav_Toggle.addEventListener('click', () => {
     navLinks.classList.toggle('active')
-
 });
 
 
