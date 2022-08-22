@@ -85,7 +85,7 @@ HEADER / NAV BAR
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 90vh; 
+    min-height: 100vh; 
     padding: 20px 15px;
 }
 
@@ -320,14 +320,14 @@ footer {
 MEDIA QUERY
 =====================
 */
-@media (min-width: 530px) {
+@media all and (min-width: 530px) {
     h1 {
         margin: 2em 0 2em 0;
     }
 
 }
 
-@media (min-width: 650px) {
+@media all and (min-width: 650px) {
     .line {
         display: flex;
     } 
@@ -352,7 +352,7 @@ MEDIA QUERY
     
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
     h1 {
         font-size: 3.5rem;
         margin: 0.5em 0 1.2em 0;
